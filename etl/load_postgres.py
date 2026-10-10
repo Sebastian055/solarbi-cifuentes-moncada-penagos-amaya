@@ -102,4 +102,4 @@ def contar(conn, tabla: str) -> int:
         cur.execute(f"SELECT COUNT(*) FROM {tabla};")
         return cur.fetchone()[0]
 
-""" Hoola profe"""
+#Se finaliza la tarea propuesta
